@@ -62,6 +62,7 @@ p {
     border: none;
     transition: all 1s ease;
     overflow: hidden;
+    cursor: pointer;
   }
 
   .btn-1:after {
@@ -126,18 +127,10 @@ p {
     width: 100%;
   }
 
-  @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {transform: translateY(-10px);}
-  }
-
-  @keyframes bounce2 {
-    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-  }
-
 /*--style for btn-2--*/
 
 .btn-2 {
-    border: none;
+    border: 2px solid;
     outline: none;
     color: #000000;
     background: #ffffff;
@@ -176,6 +169,16 @@ p {
     opacity: 1;
 }
 
+/*hover code not running as intended 
+
+.btn-2:hover {
+    color: #ffffff;
+    border: none;
+    background-color: #000000;
+    transition: ease-in;
+  }
+*/
+
 .btn-2:after {
     z-index: -1;
     content: '';
@@ -193,3 +196,5 @@ p {
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
+
+/*--style for btn-3--*/
