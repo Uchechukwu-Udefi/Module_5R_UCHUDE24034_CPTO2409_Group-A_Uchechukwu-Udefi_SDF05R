@@ -47,6 +47,6 @@ I add custom style on the button structure, to make the button have life and int
 
 - Button 1 is style to have a blue linear-gradient background and white color. while on hover, the style is blue on white background while moving up on from normal position and shadow roll in.
 
-- Button 2 is style to have white background, black color and border. On hove, display gradient party color shadow on infinite transition, black border and blue color.
+- Button 2 is style to have white background, black color and border. On hove, display glowing party color shadow on infinite animation, black border and blue color.
 
 - Button 3 is style with red color and white border. While on hover, pull down a hidden red background in a one off transition and white color.
