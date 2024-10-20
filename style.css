@@ -46,8 +46,8 @@ p {
     display: block;
     margin: 0 auto 20px; /* Center and add margin to stack vertically */
     box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
-        7px 7px 20px 0px rgba(0, 0, 0, .1),
-        4px 4px 5px 0px rgba(0, 0, 0, .1);
+        7px 7px 20px 0px rgba(0, 0, 0, .2),
+        4px 4px 5px 0px rgba(0, 0, 0, .2);
     outline: none;
 }
 
@@ -169,16 +169,6 @@ p {
 .btn-2:hover:before {
     opacity: 1;
 }
-
-/*hover code not running as intended 
-
-.btn-2:hover {
-    color: #ffffff;
-    border: none;
-    background-color: #000000;
-    transition: ease-in;
-  }
-*/
 
 .btn-2:hover {
     color: #002bff;
