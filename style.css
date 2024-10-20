@@ -53,13 +53,14 @@ p {
 
 /* Add your custom styles for btn-1, btn-2, and btn-3 */
 
-/*============================================style for btn-1=====================================================*/
+/*====================================style for btn-1 (move up on hover)==========================================*/
 
 .btn-1 {
     background: #9900ff;
     background: linear-gradient(0deg, #1900ff 0%, #9900ff 100%);
     color: #ffffff;
     border: none;
+    border-radius: 50px;
     transition: all 1s ease;
     overflow: hidden;
     cursor: pointer;
@@ -80,7 +81,7 @@ p {
     border: none;
     background: #ffffff;
     transition: all;
-    transform: translateY(-10px);
+    transform: translateY(-7px);
     opacity: 90%;
   }
 
@@ -89,7 +90,7 @@ p {
     background: linear-gradient(0deg, #9900ff 0%,  #1900ff 100%);
     -webkit-transform: scale(1);
     transform: scale(1);
-    animation: bounce2 1s ease;
+    
   }
 
   .btn-1 span:before,
@@ -127,7 +128,7 @@ p {
     width: 100%;
   }
 
-/*============================================style for btn-2=====================================================*/
+/*=========================+======style for btn-2 (color glow on hover)============================================*/
 
 .btn-2 {
     border: 2px solid;
@@ -205,7 +206,7 @@ p {
 
 .btn-3 {
     border-radius: 50px;
-    border: 3px solid #ff0000;
+    border: 3px solid #ffffff;
     color: #ff0000;
     position: relative;
     overflow: hidden;
@@ -244,7 +245,6 @@ p {
 }
   
 .btn-3:hover:before,
-.btn-3:hover:after{
+.btn-3:hover:after {
   top: 0px;
 }
-
