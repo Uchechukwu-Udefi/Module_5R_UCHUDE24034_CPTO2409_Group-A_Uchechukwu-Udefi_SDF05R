@@ -79,7 +79,7 @@ p {
   .btn-1:hover {
     color: #1900ff;
     border: none;
-    background: #ffffff;
+    background: transparent;
     transition: all;
     transform: translateY(-7px);
     opacity: 90%;
@@ -128,7 +128,7 @@ p {
     width: 100%;
   }
 
-/*=========================+======style for btn-2 (color glow on hover)============================================*/
+/*=============================style for btn-2 (parfty color glow on hover)======================================*/
 
 .btn-2 {
     border: 2px solid;
@@ -192,7 +192,7 @@ p {
     100% { background-position: 0 0; }
 }
 
-/*============================================style for btn-3=====================================================*/
+/*==========================style for btn-3 (pull down background color on hover)=================================*/
 
 .btn-3 {
     border-radius: 50px;
