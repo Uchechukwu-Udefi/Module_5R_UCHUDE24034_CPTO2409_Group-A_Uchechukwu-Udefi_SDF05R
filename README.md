@@ -38,3 +38,15 @@ Embark on this CSS journey to transform simple buttons into interactive, animate
 - Submit the link to your GitHub repository on the LMS under the project tab.
 
 Embark on this CSS journey to transform simple buttons into interactive, animated elements. Let your creativity shine and enjoy the process of bringing static elements to life!
+
+
+######
+
+## What I did on the project
+I add custom style on the button structure, to make the button have life and interactive.
+
+- Button 1 is style to have a blue linear-gradient background and white color. while on hover, the style is blue on white background while moving up on from normal position and shadow roll in.
+
+- Button 2 is style to have white background, black color and border. On hove, display gradient party color shadow on infinite transition, black border and blue color.
+
+- Button 3 is style with red color and white border. While on hover, pull down a hidden red background in a one off transition and white color.
